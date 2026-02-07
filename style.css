@@ -1,0 +1,60 @@
+/* تنسيق عام للصفحة */
+body {
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  background-color: #83704c;
+}
+
+/* قسم القائمة */
+.menu {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* القسم الرئيسي */
+.main {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* قسم الصور */
+.photos {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.photos img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+/* قسم الفوتر */
+.footer {
+  background-color: #ddd;
+  padding: 15px;
+  margin: 10px;
+}
+
